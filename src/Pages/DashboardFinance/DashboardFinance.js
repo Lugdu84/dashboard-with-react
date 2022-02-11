@@ -22,6 +22,9 @@ export default function DashboardFinance() {
         </form>
         <div className="dashboard-container">
           <BarChart data={dataChart.chart1} name={"Chiffres bimestriels"}/>
+          <BarChart data={dataChart.chart4} name={"Budget marketing"}/>
+
+
         </div>
       </div>
     );
