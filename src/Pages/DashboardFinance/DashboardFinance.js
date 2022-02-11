@@ -29,7 +29,7 @@ export default function DashboardFinance() {
         />
         <LineChart
           data={dataChart.chart3}
-          name={"Nombres de clients (en milliers)"}
+          name={"Nombres de (en milliers)"}
         />
         <BarChart data={dataChart.chart4} name={"Budget marketing"} />
       </div>
