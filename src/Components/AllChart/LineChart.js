@@ -1,7 +1,7 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 
-export default function BarChart(props) {
+export default function LineChart(props) {
   return (
     <div className="chart-container">
       <Line
